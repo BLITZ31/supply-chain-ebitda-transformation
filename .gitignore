@@ -1,0 +1,12 @@
+# Exclude large raw dataset (>90 MB) to keep repository lightweight
+data/*.csv
+data/*.xlsx
+data/*.zip
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.DS_Store
